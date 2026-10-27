@@ -6,6 +6,9 @@ long calculate_factorial(int number )
     if(number<1){
         return -1;
     }
+    if(number>20){
+        return -1;
+    }
     int result=1;
     while(number>1){
         result*=number;
